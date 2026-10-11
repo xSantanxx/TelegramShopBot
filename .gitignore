@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit real tokens
+.env
+.env.local
+.env.*.local
+
+# Logs / runtime
+*.log
+npm-debug.log*
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional local dumps
+coverage/
+.cache/
+tmp/
+temp/
+
+clothing-price-tracker-project-handoff.md
